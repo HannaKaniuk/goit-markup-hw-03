@@ -205,6 +205,7 @@
 .photo-item {
   width: 360px;
   height: 300px;
+  display: block;
 }
 .team {
   display: flex;
@@ -290,7 +291,7 @@
   align-items: flex-start;
   gap: 24px;
 }
-.foto-background {
+.photo-background {
   background-color: var(--white-background);
 }
 .container-footer {

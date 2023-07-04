@@ -21,6 +21,16 @@
   background-color: #ffffff;
   margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
 .link {
   text-decoration: none;
 }
@@ -288,7 +298,7 @@ img {
 .container-people {
   align-items: center;
   gap: 8px;
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 .photo-background:first-child {
   flex-basis: calc((100% - 3 * 24px) / 4);

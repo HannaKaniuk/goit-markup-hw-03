@@ -56,6 +56,7 @@ img {
 
 .menu {
   display: flex;
+  align-items: center;
 }
 .menu-link {
   display: flex;
@@ -276,6 +277,7 @@ img {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 32px 16px;
 }
 
 .team {
@@ -331,6 +333,7 @@ img {
   text-transform: uppercase;
   color: var(--primary-brand);
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 /* portfolio */
@@ -401,6 +404,7 @@ img {
   display: block;
   text-decoration: none;
   color: inherit;
+  padding: 24px 0;
 }
 .title-link-portfolio {
   margin-bottom: 8px;

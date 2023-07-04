@@ -1,4 +1,3 @@
-*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -24,6 +23,8 @@
 }
 .link {
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .list {
@@ -38,7 +39,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  display: flex;
 }
 
 /* HEADER */
@@ -63,6 +63,7 @@ img {
   gap: 40px;
   flex-grow: 1;
   align-items: center;
+  padding: 24px 0;
 }
 .menu-link {
   display: flex;
@@ -78,6 +79,7 @@ img {
   display: flex;
   gap: 40px;
   flex-grow: 1;
+  padding: 24px 0;
 }
 
 .logo-link {
@@ -117,6 +119,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+  padding: 24px 0;
 }
 
 .address-link:hover,
@@ -277,9 +280,9 @@ img {
 
 /* main four */
 
-.background-color {
+.section-four {
   background-color: var(--light);
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .container-team {
@@ -302,14 +305,14 @@ img {
   align-items: center;
   gap: 8px;
   padding: 32px 16px;
-  text-align: center;
 }
-.photo-background-team {
+.photo-background {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .title-link-people {
   text-align: center;
+  margin-bottom: 8px;
 }
 .text-name {
   text-align: center;
@@ -370,6 +373,7 @@ img {
 /* portfolio */
 
 .navigator {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 .menu-list-portfolio {
@@ -405,16 +409,6 @@ img {
   border: 1px solid transparent;
 }
 
-.button-navigator {
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 24px;
-}
-
 .photo-list {
   display: flex;
   flex-wrap: wrap;
@@ -446,7 +440,4 @@ img {
 }
 .title-link-portfolio {
   margin-bottom: 8px;
-}
-.container-navigator {
-  display: flex;
 }

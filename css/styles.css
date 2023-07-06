@@ -173,6 +173,7 @@ img {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 18px;
 }
 .button:hover {
   background-color: var(--pressed-state);
